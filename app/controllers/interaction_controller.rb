@@ -29,14 +29,14 @@ class InteractionController < ApplicationController
   def show
     # construye el uri con el parámetro deseado
      # Si no se ha pasado el parámetro de búsqueda, volver a la página anterior
-    if params[:ricerca] == ""
+    if params[:Buscar] == ""
       redirect_to interaction_new_path, notice: 'Introduzca un parámetro de búsqueda!'
     else
-      uri = "http://id.who.int/icd/entity/search?q={#{params[:ricerca]}}"
+      uri = "http://id.who.int/icd/entity/search?q={#{params[:Buscar]}}"
 
       response = RestClient.get uri, {'Authorization': "Bearer #{session[:token]}",
                                       'Accept': :json,
-                                      'Accept-Language': 'es',
+                                      'Accept-Language': 'en',
                                       'API-Version': 'v2'
       }
       @response = JSON.parse(response)
