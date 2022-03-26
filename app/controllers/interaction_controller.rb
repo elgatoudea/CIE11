@@ -40,6 +40,7 @@ class InteractionController < ApplicationController
                                       'API-Version': 'v2'
       }
       @response = JSON.parse(response)
+      p response
     end
   end
 
