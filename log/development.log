@@ -4826,3 +4826,328 @@ Processing by InteractionController#show as HTML
 Completed 200 OK in 1656ms (Views: 132.7ms)
 
 
+Started GET "/interaction/show" for 127.0.0.1 at 2022-03-26 01:59:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/show"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 01:59:32 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hL3X5JIqVGA4Q0OQ9C48m50nrC7GhEzqYC/b4xnl/0RhZ4YLk+zVxGCedmGWGeGVIqU0z/ZsfYxDx2XIi0Wq6w==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1580ms (Views: 147.1ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 02:06:16 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hL3X5JIqVGA4Q0OQ9C48m50nrC7GhEzqYC/b4xnl/0RhZ4YLk+zVxGCedmGWGeGVIqU0z/ZsfYxDx2XIi0Wq6w==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1814ms (Views: 96.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 02:10:36 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 97ms (Views: 94.8ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 02:10:39 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0j+Uu0u6zCOPvhLmt6Rb2r0vxCvoXky++UxsIFvLeI9RL3/4MJ4ae0EkTJyLz6YJMKdAK3fL3gpVF3fHaLMbqg==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1452ms (Views: 110.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 02:16:04 -0500
+  
+SyntaxError (C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:53: syntax error, unexpected ')'
+...ar i = 0; i < data.length; i++) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:54: syntax error, unexpected `in', expecting ')'
+            for (var key in data[i]) {
+                         ^~
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:54: syntax error, unexpected '{', expecting '.' or &. or :: or '['
+...     for (var key in data[i]) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:55: syntax error, unexpected '{', expecting `then' or ';' or '\n'
+... if (col.indexOf(key) === -1) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:57: syntax error, unexpected '}', expecting ')'
+                }
+                ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:63: syntax error, unexpected ')'
+...var i = 0; i < col.length; i++) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:67: syntax error, unexpected '}', expecting ')'
+        }
+        ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:71: syntax error, unexpected ')'
+...ar i = 0; i < data.length; i++) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:75: syntax error, unexpected ')'
+...var j = 0; j < col.length; j++) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:78: syntax error, unexpected '}', expecting ')'
+            }
+            ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:83: syntax error, unexpected '}', expecting ')'
+    };
+    ^
+):
+  
+app/controllers/interaction_controller.rb:53: syntax error, unexpected ')'
+app/controllers/interaction_controller.rb:54: syntax error, unexpected `in', expecting ')'
+app/controllers/interaction_controller.rb:54: syntax error, unexpected '{', expecting '.' or &. or :: or '['
+app/controllers/interaction_controller.rb:55: syntax error, unexpected '{', expecting `then' or ';' or '\n'
+app/controllers/interaction_controller.rb:57: syntax error, unexpected '}', expecting ')'
+app/controllers/interaction_controller.rb:63: syntax error, unexpected ')'
+app/controllers/interaction_controller.rb:67: syntax error, unexpected '}', expecting ')'
+app/controllers/interaction_controller.rb:71: syntax error, unexpected ')'
+app/controllers/interaction_controller.rb:75: syntax error, unexpected ')'
+app/controllers/interaction_controller.rb:78: syntax error, unexpected '}', expecting ')'
+app/controllers/interaction_controller.rb:83: syntax error, unexpected '}', expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-03-26 02:16:34 -0500
+  
+SyntaxError (C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:53: syntax error, unexpected ')'
+...ar i = 0; i < data.length; i++) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:54: syntax error, unexpected `in', expecting ')'
+            for (var key in data[i]) {
+                         ^~
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:54: syntax error, unexpected '{', expecting '.' or &. or :: or '['
+...     for (var key in data[i]) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:55: syntax error, unexpected '{', expecting `then' or ';' or '\n'
+... if (col.indexOf(key) === -1) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:57: syntax error, unexpected '}', expecting ')'
+                }
+                ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:63: syntax error, unexpected ')'
+...var i = 0; i < col.length; i++) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:67: syntax error, unexpected '}', expecting ')'
+        }
+        ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:71: syntax error, unexpected ')'
+...ar i = 0; i < data.length; i++) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:75: syntax error, unexpected ')'
+...var j = 0; j < col.length; j++) {
+...                              ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:78: syntax error, unexpected '}', expecting ')'
+            }
+            ^
+C:/Users/duvan.villa/Documents/GitHub/CIE11/app/controllers/interaction_controller.rb:83: syntax error, unexpected '}', expecting ')'
+    };
+    ^
+):
+  
+app/controllers/interaction_controller.rb:53: syntax error, unexpected ')'
+app/controllers/interaction_controller.rb:54: syntax error, unexpected `in', expecting ')'
+app/controllers/interaction_controller.rb:54: syntax error, unexpected '{', expecting '.' or &. or :: or '['
+app/controllers/interaction_controller.rb:55: syntax error, unexpected '{', expecting `then' or ';' or '\n'
+app/controllers/interaction_controller.rb:57: syntax error, unexpected '}', expecting ')'
+app/controllers/interaction_controller.rb:63: syntax error, unexpected ')'
+app/controllers/interaction_controller.rb:67: syntax error, unexpected '}', expecting ')'
+app/controllers/interaction_controller.rb:71: syntax error, unexpected ')'
+app/controllers/interaction_controller.rb:75: syntax error, unexpected ')'
+app/controllers/interaction_controller.rb:78: syntax error, unexpected '}', expecting ')'
+app/controllers/interaction_controller.rb:83: syntax error, unexpected '}', expecting ')'
+Started GET "/interaction/show" for 127.0.0.1 at 2022-03-26 02:17:00 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/show"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-26 02:17:36 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 112ms (Views: 109.6ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 02:17:40 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s5Hq192KChmAG3KS2bsiujEuILvfFxlTFoiukKC8geJWS7s43EyLvdjGR2O7jP+0jqy4Wu//KDU1YBC7MhzUTQ==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1296ms (Views: 115.8ms)
+
+
+Started GET "/interaction/show" for 127.0.0.1 at 2022-03-26 02:18:02 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/show"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 02:18:06 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s5Hq192KChmAG3KS2bsiujEuILvfFxlTFoiukKC8geJWS7s43EyLvdjGR2O7jP+0jqy4Wu//KDU1YBC7MhzUTQ==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1289ms (Views: 109.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 12:11:53 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2229ms (Views: 513.2ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 12:12:02 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 12:12:06 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+sVuXqmS/cJ49wQm1Abk5xpdxxfaz0QMAs6jhm9vKxEfHz+xqFR8ZiAqMde2MTnppd9f9uondWohJh2t/c9+vg==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 1621ms (Views: 255.5ms)
+
+
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 12:12:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
