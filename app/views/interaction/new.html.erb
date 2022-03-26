@@ -2,17 +2,17 @@
 
   <br />
 
-  <h5>Rails ICD Playground by David La Barbera</h5>
+  <h5>Buscador de CIE11</h5>
 
   <%= form_tag interaction_show_path do %>
 
     <div class="form-group">
 
-      <!-- Passo il token di auth alla query -->
-      <%= label_tag 'ricerca', 'Ricerca per nome', placeholder: 'Es: tubercolosis' %>
-      <%= text_field_tag 'ricerca', '', class: 'form-control' %>
+      <!-- Pase el token de autenticación a la consulta -->
+      <%= label_tag 'Investigación', 'Buscar por nombre', placeholder: 'Ejemplo: tubercolosis' %>
+      <%= text_field_tag 'Buscar', '', class: 'form-control' %>
 
-      <small id="hint" class="form-text text-muted">Es: tuberculosis</small>
+      <small id="hint" class="form-text text-muted">Ejemplo: tuberculosis</small>
       <br />
 
       <% if flash[:notice] != nil %>
@@ -21,7 +21,7 @@
         </div>
       <% end %>
 
-      <%= submit_tag 'Ricerca', class:'btn btn-primary' %>
+      <%= submit_tag 'Buscar', class:'btn btn-primary' %>
 
     </div>
 

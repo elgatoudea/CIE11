@@ -4518,3 +4518,79 @@ Processing by InteractionController#show as HTML
 Completed 200 OK in 8070ms (Views: 171.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2022-03-26 01:09:17 -0500
+Processing by InteractionController#new as HTML
+Completed 500 Internal Server Error in 5661ms
+
+
+  
+RestClient::BadRequest (400 Bad Request):
+  
+app/controllers/interaction_controller.rb:9:in `new'
+Started POST "/__web_console/repl_sessions/447fa3bd7f7a7c8bcd6242692fb873cd/trace" for 127.0.0.1 at 2022-03-26 01:09:42 -0500
+Started GET "/" for 127.0.0.1 at 2022-03-26 01:18:48 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7097ms (Views: 5028.6ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 01:19:06 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MYEC8V4n5CQCoqcOQYbIGVV8Mo8ZDfdG1EJTqQq+wkrUW1MeX+FlgFp/kv8jsRUX6v6qbinlxiD3qu2CmB6X5Q==", "ricerca"=>"hola", "commit"=>"Ricerca"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1624ms (Views: 155.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 01:19:15 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 124ms (Views: 105.0ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 01:19:25 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kmMbML3aFe87Kul1448U2BzK9s38leica5aoq7JRd1wRc/Bzxv7Dt/Wwtw/f5OkLkUJyzWMAeijHzbNMgSkUeQ==", "ricerca"=>"tuberculosis", "commit"=>"Ricerca"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1391ms (Views: 183.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 01:19:35 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 122ms (Views: 119.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 01:20:03 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 646ms (Views: 420.8ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 01:20:09 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kEpL2lK3hAmERvj/aJIz1PPXE6tBM2PKgubtX8LPV/N1kBo1U3EFrdybzQ4Kpe7aTFWLSnHbUqyhDlN0UG8CXA==", "ricerca"=>"tuberculosis", "commit"=>"Ricerca"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1352ms (Views: 186.9ms)
+
+
+Started GET "/" for ::1 at 2022-03-26 01:24:20 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 919ms (Views: 86.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 01:24:22 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 101ms (Views: 98.7ms)
+
+
