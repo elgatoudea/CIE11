@@ -5739,3 +5739,2001 @@ Processing by InteractionController#new as HTML
 Completed 200 OK in 233ms (Views: 227.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2022-03-26 16:25:10 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 2283ms (Views: 552.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 16:43:08 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 1242ms (Views: 914.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 16:55:11 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 1071ms (Views: 676.3ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 16:55:37 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0jlM0QXSF5bMHSqqUHLq3YRjux9rcX2pUfcfkSIwUsY34x0+BBSWMpTAH1syRTfTO+Ej/luZTM9yH6G6sJAHaQ==", "Buscar"=>"", "commit"=>"Buscar"}
+Redirected to http://127.0.0.1:3000/interaction/new
+Completed 302 Found in 2ms
+
+
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 16:55:37 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 153ms (Views: 150.1ms)
+
+
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 16:57:11 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 754ms (Views: 464.5ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 16:57:18 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zw/b/nBM6JErS//5I2GY1x7LO5ge/uWlZzf3SfJnWxiC1YoRcYppNXOWyghBVkXZoUmjeS4W1MNE30liYMcOtw==", "Buscar"=>"", "commit"=>"Buscar"}
+Redirected to http://127.0.0.1:3000/interaction/new
+Completed 302 Found in 1ms
+
+
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 16:57:18 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 158ms (Views: 151.3ms)
+
+
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 17:02:27 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 110ms (Views: 105.7ms)
+
+
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 17:40:39 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2269ms (Views: 617.8ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 17:40:47 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/eQFeqmdJL8I4/t77RuqgwpAHdUSsE9KTJh5kFVBvU0YPlSVqFulG1A+zoqPLHeNtcKFNCJYfixvcMe7x+Ho4g==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1620ms (Views: 136.9ms)
+
+
+Started GET "/interaction/show" for 127.0.0.1 at 2022-03-26 17:41:16 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/show"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 17:41:19 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/eQFeqmdJL8I4/t77RuqgwpAHdUSsE9KTJh5kFVBvU0YPlSVqFulG1A+zoqPLHeNtcKFNCJYfixvcMe7x+Ho4g==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1459ms (Views: 106.6ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 17:49:36 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/eQFeqmdJL8I4/t77RuqgwpAHdUSsE9KTJh5kFVBvU0YPlSVqFulG1A+zoqPLHeNtcKFNCJYfixvcMe7x+Ho4g==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1292ms (Views: 131.5ms)
+
+
+Started GET "/interaction/show" for 127.0.0.1 at 2022-03-26 17:50:20 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/show"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 17:50:23 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/eQFeqmdJL8I4/t77RuqgwpAHdUSsE9KTJh5kFVBvU0YPlSVqFulG1A+zoqPLHeNtcKFNCJYfixvcMe7x+Ho4g==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NameError (uninitialized constant InteractionController::HTTParty):
+  
+app/controllers/interaction_controller.rb:35:in `show'
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 17:51:45 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 117ms (Views: 114.2ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 17:51:48 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x829DSDAqoDz/6lvi2u+Z9cqJ7obZUBVOTjN264oMC0iF+ziIQYrJKsinJ7pXGNpaKi/WyuNcTMa0HPwPIhlgg==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NameError (uninitialized constant InteractionController::HTTParty):
+  
+app/controllers/interaction_controller.rb:35:in `show'
+Started GET "/" for 127.0.0.1 at 2022-03-26 17:56:24 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 718ms (Views: 470.0ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 17:56:30 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q6f20T1ATSUIprdnJ7xGGLsDjunsic36OD79RT23rT9Ofac+PIbMgVB7gpZFi5sWBIEWCNxh/Jwb1kNurxf4kA==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 6ms
+
+
+  
+NameError (uninitialized constant InteractionController::HTTParty):
+  
+app/controllers/interaction_controller.rb:35:in `show'
+Started GET "/" for 127.0.0.1 at 2022-03-26 17:57:32 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 701ms (Views: 403.2ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 17:57:38 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jjMF33Khvnp8C4YxqnsK+D8/czpqKoKoX+ap4KLXUiFr6VQwc2c/3iTWs8DITNf2gL3r21rCs858DhfLMHcHjg==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2296ms (Views: 147.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 17:57:49 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 148ms (Views: 143.4ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 17:57:52 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ti+K9c6m47Lu0djWdmdtBpsYEyf679t5jBLaZyD1OWXNP2G2tYI16iBLhqxKDJDVFpCXJ2V6Sc0gScGAE41aQA==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1614ms (Views: 118.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:17:58 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 148ms (Views: 144.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:39:50 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 156ms (Views: 153.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:49:10 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 1509ms
+
+
+  
+SyntaxError (C:/Users/duvan.villa/Documents/GitHub/CIE11/app/views/interaction/new.html.erb:34: syntax error, unexpected `ensure', expecting end-of-input
+          ensure
+          ^~~~~~
+):
+  
+app/views/interaction/new.html.erb:34: syntax error, unexpected `ensure', expecting end-of-input
+Started GET "/interaction/show" for 127.0.0.1 at 2022-03-26 18:49:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/show"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:49:28 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1421ms (Views: 125.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:50:58 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 180ms (Views: 174.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:51:41 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 110ms (Views: 106.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:52:02 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 120ms (Views: 114.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:53:13 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 120ms (Views: 116.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:53:15 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 118ms (Views: 114.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:54:10 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 107ms (Views: 103.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:54:36 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 124ms (Views: 119.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:54:38 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 118ms (Views: 114.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:55:00 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 845ms (Views: 499.9ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 18:55:13 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 18:56:11 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k4EwA21wgNoeVNQ1uR/y88AdXMjwGQDAlhFsV3OTfa92W2HsbLYBfkaJ4cTbKC/9f5/EKcDxMaa1+dJ84TMoAA==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1918ms (Views: 203.6ms)
+
+
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 18:56:13 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:56:15 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 121ms (Views: 115.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 18:57:02 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 113ms (Views: 110.2ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 18:57:02 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 18:58:03 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:09:46 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 167ms (Views: 159.8ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:09:46 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:10:26 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 186ms (Views: 182.3ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:10:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:19:56 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JQ65mt+Q4ggrucY/V+m4CKlq/WJLLuk6RN3Ay97dkU3A1Oh13lZjrHNk88413mUGFuhlg3vG2FxnNX7gTH3E4g==", "Buscar"=>"tuber", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1576ms (Views: 122.4ms)
+
+
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:19:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:20:03 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:20:05 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JQ65mt+Q4ggrucY/V+m4CKlq/WJLLuk6RN3Ay97dkU3A1Oh13lZjrHNk88413mUGFuhlg3vG2FxnNX7gTH3E4g==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1259ms (Views: 105.1ms)
+
+
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:20:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:20:11 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 115ms (Views: 111.8ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:20:15 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P2GAb9rfDphEQkQhChOOLaK3VEFRPiikqCEg2rBo0+28cWssofvYwIrYGls2eHP+Lz/QQc6ruhAEejs9gxCwyA==", "Buscar"=>"", "commit"=>"Buscar"}
+Redirected to http://127.0.0.1:3000/interaction/new
+Completed 302 Found in 2ms
+
+
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 19:20:15 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 114ms (Views: 110.9ms)
+
+
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:20:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:21:30 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NedkAUEM8ib3wo8dpLPqrjFvr7dy8+8fBxbmHZMzZWfQPTXuQMpzgq8fuuzGhDegju03VkIb3nkk/lg2AZMwyA==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 875ms
+
+
+  
+JSON::ParserError (784: unexpected token at 'Please specify a valid version identifier at the API-Version header. The identifier should include just the major version e.g. 'v1', 'v2''):
+  
+app/controllers/interaction_controller.rb:41:in `show'
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:21:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 19:21:42 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 122ms (Views: 117.1ms)
+
+
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:21:43 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:21:44 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y43k7hEwJHaa5/85paiKsaEAxyzOMJL2aC4ZG8B/81OGV7UBEPal0sI6ysjHn1e/HoJfzf7Yo5BLxqcwUt+m/A==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1709ms (Views: 110.2ms)
+
+
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:21:46 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:21:53 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:21:57 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y43k7hEwJHaa5/85paiKsaEAxyzOMJL2aC4ZG8B/81OGV7UBEPal0sI6ysjHn1e/HoJfzf7Yo5BLxqcwUt+m/A==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 506ms
+
+
+  
+JSON::ParserError (784: unexpected token at 'Please specify a valid version identifier at the API-Version header. The identifier should include just the major version e.g. 'v1', 'v2''):
+  
+app/controllers/interaction_controller.rb:41:in `show'
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-26 19:21:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:29:53 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 102ms (Views: 98.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:40:04 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 107ms (Views: 103.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:40:16 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 115ms (Views: 111.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:40:28 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 113ms (Views: 106.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:42:01 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 125ms (Views: 120.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:42:25 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 117ms (Views: 113.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:43:13 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 115ms (Views: 111.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:43:15 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 157ms (Views: 154.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:48:44 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 149ms (Views: 145.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 19:48:46 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 102ms (Views: 97.6ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:48:47 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V2OGlmHxbU94e+3AAtTDIqPOUb7wS6fh+DuejRFJwNWyudd5YDfs6yCm2DFg4x4sHEzJX8Cjlofb0yCmg+mVeg==", "Buscar"=>"", "commit"=>"Buscar"}
+Redirected to http://127.0.0.1:3000/interaction/new
+Completed 302 Found in 2ms
+
+
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 19:48:47 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 131ms (Views: 128.0ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:51:23 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IyFw0BXa0Gg4qzkXjfOGvC1fb91XboG2vT/A+NgaEdfG+yE/FBxRzGB2DObvxFuykt33PGeGsNCe137TSrpEeA==", "Buscar"=>" Tuberous", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 775ms
+
+
+  
+JSON::ParserError (784: unexpected token at 'Please specify a valid version identifier at the API-Version header. The identifier should include just the major version e.g. 'v1', 'v2''):
+  
+app/controllers/interaction_controller.rb:41:in `show'
+Started GET "/interaction/show" for 127.0.0.1 at 2022-03-26 19:51:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/show"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-26 19:51:40 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1599ms (Views: 104.1ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:51:56 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V2OGlmHxbU94e+3AAtTDIqPOUb7wS6fh+DuejRFJwNWyudd5YDfs6yCm2DFg4x4sHEzJX8Cjlofb0yCmg+mVeg==", "Buscar"=>" Tuberculous", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (57.6ms)
+Completed 500 Internal Server Error in 1624ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__707800415_80460'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:52:41 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V2OGlmHxbU94e+3AAtTDIqPOUb7wS6fh+DuejRFJwNWyudd5YDfs6yCm2DFg4x4sHEzJX8Cjlofb0yCmg+mVeg==", "Buscar"=>" Tuberculous", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 1558ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__707800415_81040'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 19:58:59 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V2OGlmHxbU94e+3AAtTDIqPOUb7wS6fh+DuejRFJwNWyudd5YDfs6yCm2DFg4x4sHEzJX8Cjlofb0yCmg+mVeg==", "Buscar"=>" Tuberculous", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 1177ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__707800415_81620'
+Started GET "/" for 127.0.0.1 at 2022-03-26 20:00:37 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 131ms (Views: 125.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 20:00:40 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 108ms (Views: 104.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 20:00:42 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 101ms (Views: 97.6ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 20:00:53 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7yGfPwm4ac0kKvkD8J1P7+67RYSG6RBTm0APGBmAQ38K+87QCH7oaXz3zPKSqpLhUTndZbYBITW4qLEziyAW0A==", "Buscar"=>" Tuberculous", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 1200ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__707800415_83480'
+Started GET "/" for 127.0.0.1 at 2022-03-26 20:01:41 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 118ms (Views: 115.3ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 20:01:47 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"76O0orTQkfWlSSqEIf+OC1t5qr3NnUfP/GhJqnl1KFoKeeVNtRYQUf2UH3VDyFMF5PsyXP11dqnfgPeB69V99Q==", "Buscar"=>" Tuberculous", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 1170ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__707800415_84160'
+Started GET "/" for 127.0.0.1 at 2022-03-26 20:02:38 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 132ms (Views: 125.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 20:03:06 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 831ms (Views: 444.5ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-26 20:03:30 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aNtXVESQY6Hk5P4flZNO6LF8qYErWxycK5+k/DNG85uNAQa7RVbiBbw5y+73pJPmDv4xYBuzLfoIdxrXoeamNA==", "Buscar"=>"tuberculosis", "commit"=>"Buscar"}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1429ms (Views: 144.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 23:32:30 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 2401ms (Views: 708.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 23:57:38 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 223ms (Views: 204.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 23:58:48 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 472ms (Views: 456.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 23:58:52 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 129ms (Views: 124.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-26 23:59:03 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 194ms (Views: 188.2ms)
+
+
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-27 00:38:43 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1672ms (Views: 159.3ms)
+
+
+Started GET "/interaction/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 00:38:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-27 00:39:19 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 119ms (Views: 116.0ms)
+
+
+Started GET "/interaction/new" for 127.0.0.1 at 2022-03-27 00:39:28 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 162ms (Views: 157.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:39:31 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 115ms (Views: 110.6ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-27 00:39:41 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QOsPhJKkiV2sjLOjgwTmoOmIDx6amkkqUJC/VF1cMrClMV5rk2II+fRRhlLhMzuuVgqX/6pyeExzeAF/z/xnHw=="}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 1551ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__927818339_65760'
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-27 00:39:56 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QOsPhJKkiV2sjLOjgwTmoOmIDx6amkkqUJC/VF1cMrClMV5rk2II+fRRhlLhMzuuVgqX/6pyeExzeAF/z/xnHw=="}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 1196ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__927818339_66320'
+Started GET "/interaction/show" for 127.0.0.1 at 2022-03-27 00:40:02 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/interaction/show"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:40:27 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 977ms (Views: 603.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:41:26 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 117ms (Views: 113.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:47:45 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 386ms (Views: 380.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:48:01 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 100ms (Views: 95.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:48:21 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 129ms (Views: 125.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:48:49 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 123ms (Views: 119.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:51:01 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 152ms (Views: 146.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:52:27 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 166ms (Views: 119.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:52:28 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 104ms (Views: 99.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:52:49 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 122ms (Views: 117.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:53:00 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 134ms (Views: 127.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:53:20 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 113.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:57:01 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (53.5ms)
+Completed 500 Internal Server Error in 62ms
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::CIE11):
+    4: 
+    5:   <br />
+    6:   <div class="row align-items-center">
+    7:   <%=Buscador de CIE11 %>
+    8:   </div>
+    9:   <%= form_tag interaction_show_path do %>
+   10: 
+  
+app/views/interaction/new.html.erb:7:in `_app_views_interaction_new_html_erb__680259901_63380'
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:57:44 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 89ms (Views: 85.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:58:15 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 17ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..4)):
+    4: 
+    5:   <br />
+    6:   <div class="row align-items-center">
+    7:   <%= label 'Buscador de CIE11' %>
+    8:   </div>
+    9:   <%= form_tag interaction_show_path do %>
+   10: 
+  
+app/views/interaction/new.html.erb:7:in `_app_views_interaction_new_html_erb__680259901_64060'
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:58:38 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 98ms (Views: 94.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 00:58:51 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 98ms (Views: 93.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:00:55 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 262ms (Views: 255.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:04:46 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 652ms (Views: 648.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:06:32 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 180ms (Views: 176.4ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 01:06:44 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:15:02 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 188ms (Views: 176.0ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-27 01:15:15 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VpO0/1PCOCRKdGuPQ9KvOTZEEAhEpx1R1NpCuD9OPumzSeUQUgS5gBKpXn4h5XI3icaI6XRPLDf3MvyTre5rRg=="}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (23.2ms)
+Completed 500 Internal Server Error in 1946ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__382141920_66100'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:16:20 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 315ms (Views: 310.5ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-27 01:16:32 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jv/FsG6rMcMLNmKL0JCC9AQ1tPvSfu28ZMABA4oR2Y5rJZRfb22wZ1PrV3qyp1/6u7csGuKW3NpHKL8oGLGMIQ=="}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 1463ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__382141920_66860'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:18:06 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 790ms (Views: 786.1ms)
+
+
+Started POST "/interaction/show" for 127.0.0.1 at 2022-03-27 01:18:09 -0500
+Processing by InteractionController#show as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BEi0AnCZxujycGD9eneUaTi39dkRvDdCCfQWFnqEqBfhkuXtcV9HTKqtVQwYQElnhzVtOCFUBiQqHKg96CT9uA=="}
+  Rendering interaction/show.html.erb within layouts/application
+  Rendered interaction/show.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 1196ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    20:               </tr>
+    21:             </thead>
+    22:             <tbody>
+    23:               <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
+    24:                 <tr>
+    25:                   <td><%= resultado["label"] %></td>
+    26:                 </tr>
+  
+app/views/interaction/show.html.erb:23:in `_app_views_interaction_show_html_erb__382141920_67740'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:18:42 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 153ms (Views: 147.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:24:05 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 170ms (Views: 165.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:24:08 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 154ms (Views: 149.8ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 01:25:54 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:26:29 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 229ms (Views: 224.1ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 01:26:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:26:56 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 115ms (Views: 109.3ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 01:26:56 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:27:13 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1299ms (Views: 975.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:30:00 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 123ms (Views: 119.4ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 01:30:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:31:55 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 135ms (Views: 131.1ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 01:31:55 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:32:15 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 127ms (Views: 123.4ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 01:32:16 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:33:04 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 127ms (Views: 123.2ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 01:33:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:34:07 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 141ms (Views: 137.2ms)
+
+
+Started GET "/requestProvider.js.map" for 127.0.0.1 at 2022-03-27 01:34:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/requestProvider.js.map"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'

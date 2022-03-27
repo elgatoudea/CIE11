@@ -16,3 +16,19 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+
+const mySettings = {
+    apiServerUrl: "https://icd11restapi-developer-test.azurewebsites.net",
+    language: "es"
+  };
+  
+  const myCallbacks = {
+    selectedEntityFunction: selectedEntity => {
+      document.getElementById("demo-paste-selected").innerHTML =
+        selectedEntity.code + " - " + selectedEntity.bestMatchText;
+      document.getElementById("demo-selected").style.display = "inline";
+    }
+  };
+
+  // configure the ECT Handler
+  ECT.Handler.configure(mySettings);

@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 #
 gem 'rest-client'
+gem 'httparty', '~> 0.13.7'
 
 gem 'bootstrap'
 gem 'jquery-rails'

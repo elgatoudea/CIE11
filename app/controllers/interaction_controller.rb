@@ -32,15 +32,13 @@ class InteractionController < ApplicationController
     if params[:Buscar] == ""
       redirect_to interaction_new_path, notice: 'Introduzca un parámetro de búsqueda!'
     else
-      uri = "http://id.who.int/icd/entity/search?q={#{params[:Buscar]}}"
-
-      response = RestClient.get uri, {'Authorization': "Bearer #{session[:token]}",
-                                      'Accept': :json,
-                                      'Accept-Language': 'en',
-                                      'API-Version': 'v2'
-      }
-      @response = JSON.parse(response)
-      p response
+      response = HTTParty.get("http://id.who.int/icd/entity/search?q={#{params[:Buscar]}}", headers: {
+        "Authorization": "Bearer #{session[:token]}",
+        "Accept" => "application/json",
+        "Accept-Language": "es",
+        "API-Version": "v2"
+      })
+      @response = JSON.parse(response.body)
     end
   end
 

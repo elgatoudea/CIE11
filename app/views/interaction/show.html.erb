@@ -1,4 +1,5 @@
 
+
 <div class="container">
 
   <br /><h5>Resultado de la consulta</h5><br />
@@ -9,20 +10,26 @@
       <%= link_to 'Haz otra búsqueda', root_path, class:'btn btn-outline-primary' %>
     </div>
     <div class="col-lg-10">
-      <pre>
-        <code>
-        <div class="col-12 mt-3" id="resultados">
-              <table class="table table-striped" id="lista">
+
+      <div class="box box-primary">
+        <div class="box-body table-responsive">
+          <table class="table table-hover" role="row" cellspacing="0" width="100%">
+            <thead>
+              <tr>
+                <th>Resultado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @response["destinationEntities"][0]["matchingPVs"].each do |resultado|%>
                 <tr>
-                  <td>error</td>
-                  <td>errorMessage</td>
+                  <td><%= resultado["label"] %></td>
                 </tr>
-              </table>
-            </div>
-            <%= JSON.pretty_generate @response %>
-            
-        </code>
-      </pre>
+              <% end %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
     </div>
 
   </div>

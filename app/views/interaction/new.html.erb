@@ -1,27 +1,35 @@
+
+
 <div class="container">
 
   <br />
 
-  <h5>Buscador de CIE11</h5>
+  <h1><center>CIE11</center></h1>
 
   <%= form_tag interaction_show_path do %>
 
     <div class="form-group">
-
-      <!-- Pase el token de autenticación a la consulta -->
+      <br />
+      <h5> Escriba para iniciar la búsqueda: </h5>
+      <input type="text" class="ctw-input" autocomplete="true" data-ctw-ino="1" > 
+           
+      <!-- div element used for showing the search results -->
+      <div class="ctw-window" data-ctw-ino="1" ></div> 
+      <small id="hint" class="form-text text-muted">Ejemplo: tuberculosis</small>
+      <!-- Pase el token de autenticación a la consulta 
       <%= label_tag 'Investigación', 'Buscar por nombre', placeholder: 'Ejemplo: tubercolosis' %>
       <%= text_field_tag 'Buscar', '', class: 'form-control' %>
 
-      <small id="hint" class="form-text text-muted">Ejemplo: tuberculosis</small>
+      
       <br />
-
+      </div>
       <% if flash[:notice] != nil %>
         <div class="alert alert-danger" role="alert">
           <%= flash[:notice] %>
         </div>
       <% end %>
 
-      <%= submit_tag 'Buscar', class:'btn btn-primary' %>
+      <%= submit_tag 'Buscar', class:'btn btn-primary' %>-->
 
     </div>
 
