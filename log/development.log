@@ -7737,3 +7737,10 @@ puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
 puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
 puma (5.6.2) lib/puma/server.rb:441:in `process_client'
 puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 01:49:18 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 2928ms (Views: 1095.1ms)
+
+
