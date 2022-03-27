@@ -7919,3 +7919,17 @@ puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
 puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
 puma (5.6.2) lib/puma/server.rb:441:in `process_client'
 puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-03-27 03:02:12 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 3059ms (Views: 1079.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-27 03:09:22 -0500
+Processing by InteractionController#new as HTML
+  Rendering interaction/new.html.erb within layouts/application
+  Rendered interaction/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 228ms (Views: 223.2ms)
+
+
